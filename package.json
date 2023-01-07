@@ -1,0 +1,32 @@
+{
+  "name": "pos",
+  "proxy": "http://localhost:5000",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "server": "nodemon server",
+    "frontend1": "npm start --prefix frontend1",
+    "dev": "concurrently \"npm run server\" \"npm run frontend1\""
+  },
+  "author": "isaac batsa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "color": "^4.2.3",
+    "concurrently": "^7.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0",
+    "morgan": "^1.10.0",
+    "node": "^16.17.0",
+    "react-detect-offline": "^2.4.5",
+    "redux-devtools-extension": "^2.13.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

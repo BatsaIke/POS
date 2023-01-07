@@ -1,0 +1,174 @@
+//data for 
+const products = [
+  {
+    name: "Bacon",
+    category: "burger",
+    price: "5.4",
+    image: "/images/Food/Burgers/Bacon-Cheese-Burger-PNG-Clipart",
+  },
+  {
+    name: "BURGER KING",
+    category: "burger",
+    price: "7",
+    image: "/images/Food/Burgers/BURGER KING",
+  },
+  {
+    name: "Classic-Cheese",
+    category: "burger",
+    price: "50",
+    image: "/images/Food/Burgers/Classic-Cheese-Burger-Transparent-PNG",
+  },
+  {
+    name: "BURGER HAMBURGER",
+    category: "burger",
+    price: "15.4",
+    image: "/images/Food/Burgers/BURGER HAMBURGER",
+  },
+  {
+    name: "Cheese",
+    category: "burger",
+    price: "30",
+    image: "/images/Food/Burgers/Classic-Cheese-Burger-PNG-Transparent-Image",
+  },
+  {
+    name: "RUSTLERS FLAME",
+    category: "burger",
+    price: "16",
+    image: "/images/Food/Burgers/RUSTLERS FLAME GRILLED CHEESEBURGER",
+  },
+  {
+    name: "HAMBURGER PLANET",
+    category: "burger",
+    price: "23",
+    image: "/images/Food/Burgers/HAMBURGER PLANET",
+  },
+  {
+    name: "PATTY BURGER",
+    category: "burger",
+    price: "30",
+    image: "/images/Food/Burgers/PATTY BURGER",
+  },
+
+  {
+    name: "Pepperoni",
+    category: "pizza",
+    price: "24",
+    image: "/images/Food/Pizza/Pepperoni-Pizza-Transparent-PNG",
+  },
+  {
+    name: "Pizza 1",
+    category: "pizza",
+    price: "12",
+    image: "/images/Food/Pizza/pizza-png-19310",
+  },
+  {
+    name: "Cheese Pizza",
+    category: "pizza",
+    price: "50",
+    image: "/images/Food/Pizza/Cheese-Pizza-PNG-Clipart",
+  },
+  {
+    name: "Pizza 2",
+    category: "pizza",
+    price: "10",
+    image: "/images/Food/Pizza/pizza-png-19318",
+  },
+  {
+    name: "Pizza 3",
+    category: "pizza",
+    price: "1.2",
+    image: "/images/Food/Pizza/pizza-png-19323",
+  },
+  {
+    name: "Pizza 4",
+    category: "pizza",
+    price: "7",
+    image: "/images/Food/Pizza/pizza-png-19324",
+  },
+  {
+    name: "Pizza 5",
+    category: "pizza",
+    price: "98",
+    image: "/images/Food/Pizza/pizza-png-19314",
+  },
+  {
+    name: "Pizza slice",
+    category: "pizza",
+    price: "59",
+    image: "/images/Food/Pizza/Pizza-Slice",
+  },
+  {
+    name: "Pizza 7",
+    category: "pizza",
+    price: "23",
+    image: "/images/Food/Pizza/pizza-png-19360",
+  },
+  {
+    name: "Pizza 8",
+    category: "pizza",
+    price: "13",
+    image: "/images/Food/Pizza/pizza-png-19324",
+  },
+  {
+    name: "1-2 drink",
+    category: "pice",
+    price: "6",
+    image: "/images/Pice/1-2-drink-png-12",
+  },
+  {
+    name: "2-2 drink",
+    category: "pice",
+    price: "7",
+    image: "/images/Pice/2-2-drink-png-10",
+  },
+  {
+    name: "3-2 drink",
+    category: "pice",
+    price: "8",
+    image: "/images/Pice/3-2-drink-png-11",
+  },
+  {
+    name: "4-2 drink",
+    category: "pice",
+    price: "6",
+    image: "/images/Pice/4-2-drink-png",
+  },
+  {
+    name: "5-2",
+    category: "pice",
+    price: "7.4",
+    image: "/images/Pice/5-2-drink-png-8",
+  },
+  {
+    name: "10-2 beer",
+    category: "pice",
+    price: "8",
+    image: "/images/Pice/10-2-drink-png-7",
+  },
+  {
+    name: "11-2 dring",
+    category: "pice",
+    price: "5",
+    image: "/images/Pice/11-2-drink-png-4",
+  },
+  {
+    name: "12-2",
+    category: "pice",
+    price: "4.9",
+    image: "/images/Pice/12-2-drink-png-5",
+  },
+  {
+    name: "8-Ice",
+    category: "pice",
+    price: "8",
+    image: "/images/Pice/54349-8-ice-drink-free-transparent-image-hq",
+  },
+  {
+    name: "Ice Drim",
+    category: "pice",
+    price: "2",
+    image: "/images/Pice/54364-6-ice-drink-download-download-hq-png",
+  },
+];
+
+module.exports = products;
